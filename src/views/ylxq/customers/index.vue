@@ -303,6 +303,7 @@ export default {
     },
     /** 提交按钮 */
     submitForm() {
+      console.log("==============测试提交")
       this.$refs["form"].validate(valid => {
         if (valid) {
           if (this.form.id != null) {
